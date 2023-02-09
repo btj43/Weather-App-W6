@@ -1,0 +1,87 @@
+body {
+  font-family: monospace;
+  background: radial-gradient(
+    circle at 18.7% 37.8%,
+    rgb(250, 250, 250) 0%,
+    rgb(225, 234, 238) 90%
+  );
+}
+h1 {
+  font-weight: 900;
+  font-size: 55px;
+}
+h2 {
+  font-weight: 700;
+  line-height: 50px;
+  font-size: 35px;
+}
+
+form {
+  display: inline-flex;
+  margin: 45px 20px 20px 20px;
+  position: fixed;
+}
+button {
+  position: relative;
+  flex: 1 1 auto;
+  max-width: 20%;
+}
+.wholebody {
+  border: 1px solid grey;
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.today {
+  text-align: left;
+  display: inline-flex;
+}
+.citydate {
+  margin: 20px 50px 0px 20px;
+  position: relative;
+  flex: 1 1 auto;
+}
+.temp {
+  text-align: center;
+  position: relative;
+  flex: 1 1 auto;
+  font-size: 30px;
+  margin: 20px 50px 0px 20px;
+}
+.degrees {
+  font-size: 20px;
+}
+.todayicon {
+  font-size: 70px;
+}
+
+.form-group {
+  width: 100%;
+  position: relative;
+  flex: 1 1 auto;
+}
+
+.bottom {
+  max-width: 100%;
+}
+
+.cities {
+  list-style: none;
+  line-height: 35px;
+  text-align: center;
+}
+.londonweather {
+  list-style: none;
+  line-height: 35px;
+  font-size: 20px;
+}
+.fa-cloud-sun {
+  color: grey;
+}
+.fa-sun {
+  color: yellow;
+}
+.fa-cloud-showers-heavy {
+  color: rgb(70, 70, 88);
+}
